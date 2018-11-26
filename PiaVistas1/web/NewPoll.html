@@ -56,7 +56,7 @@
           <br />
           <div class="row">
             <div class="card-content col s12 blue-grey lighten-5">
-              <form action="ComentariosControlador" method="post">
+              <form action="ComentariosControlador" method="post" id="test">
                 <div class="row">
                   <div class="col s12 input-field">
                     <label for="NewPoll">Pregunta</label>
@@ -70,7 +70,7 @@
                       <input
                         disabled
                         id="ConRes1"
-                        name="ConRes1"
+                        name="ConRes1 "
                         type="checkbox"
                         value="true"
                       />
@@ -79,7 +79,7 @@
                   </div>
                   <div class="col s5 input-field">
                     <label for="Res1">Respuesta 1</label>
-                    <input type="text" name="Res1" id="Res1" />
+                    <input type="text" name="Res1" id="Res1" required />
                   </div>
                   <div class="col s5 input-field file-field ">
                     <div
@@ -107,9 +107,9 @@
                       <span class="lever"></span> On
                     </label>
                   </div>
-                  <div class="col s5 input-field">
+                  <div class="col s5 input-field ">
                     <label for="Res2">Respuesta 2</label>
-                    <input type="text" name="Res2" id="Res2" />
+                    <input type="text" name="Res2" id="Res2" required />
                   </div>
                   <div class="col s5 input-field file-field ">
                     <div
@@ -124,7 +124,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="switch col s2 center-align">
+                  <div class="switch col s2 center-align" id="switch3">
                     <label>
                       Off <input id="ConRes3" name="ConRes3" type="checkbox" />
                       <span class="lever"></span> On
@@ -137,6 +137,7 @@
                   <div class="col s5 input-field file-field ">
                     <div
                       class="btn waves-effect btn blue accent-3 waves-yellow"
+                      id="BtnIMG3"
                     >
                       <span>Imagen para la respuesta 3</span>
                       <input name="ImgRes3" id="ImgRes3" type="file" />
@@ -147,7 +148,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="switch col s2 center-align">
+                  <div class="switch col s2 center-align" id="switch4">
                     <label>
                       Off <input id="ConRes4" name="ConRes4" type="checkbox" />
                       <span class="lever"></span> On
@@ -160,6 +161,7 @@
                   <div class="col s5 input-field file-field ">
                     <div
                       class="btn waves-effect btn blue accent-3 waves-yellow"
+                      id="BtnIMG4"
                     >
                       <span>Imagen para la respuesta 4</span>
                       <input name="ImgRes4" id="ImgRes4" type="file" />
