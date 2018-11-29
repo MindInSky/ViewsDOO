@@ -1,0 +1,39 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<footer class="page-footer orange accent-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12 ">
+            <h5 class="white-text">Pia En equipo</h5>
+            <p class="red-text  text-darken-4">
+              Realice este pia debido a que mi equipo realmente no estaba
+              haciendo nada de valor para el mismo, a pesar de que les insisti
+              por mas de tres semanas.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Alumnos</h5>
+            <ul>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  >Kevin Alejandro Muñiz Ponce 1557649</a
+                >
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#!"
+                  >Jennifer Guadalupe González Yado 1722986</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2018 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!"
+            >Aqui podemos poner logos</a
+          >
+        </div>
+      </div>
+    </footer>

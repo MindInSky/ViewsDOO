@@ -1,0 +1,39 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+ <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper orange accent-1">
+        <a href="#!" class="brand-logo">Logo</a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a
+              href="./login.jsp"
+              class="waves-effect btn blue accent-3 waves-yellow pulse"
+              >Login</a
+            >
+          </li>
+          <li>
+            <a
+              href=".PollList.jsp"
+              class="waves-effect btn blue accent-3 waves-yellow disabled"
+              >Encuestas</a
+            >
+          </li>
+          <li>
+            <a
+              href="#!"
+              class="waves-effect btn blue accent-3 waves-yellow disabled"
+              >Perfil</a
+            >
+          </li>
+          <li>
+            <a
+              href="./NewPoll.jsp"
+              class="waves-effect btn blue accent-3 waves-yellow disabled"
+              >Nueva Encuesta</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
