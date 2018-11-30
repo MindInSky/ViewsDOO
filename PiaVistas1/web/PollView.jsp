@@ -10,7 +10,10 @@
   and open the template in the editor.
 -->
 <html>
+  <head>
+  <title>Encuesta</title>
   <%@include file="/WEB-INF/jspf/head.jspf" %>
+  </head>  
   <%@include file="/WEB-INF/jspf/header.jspf" %>
   <body class="blue lighten-1">
     <div class="container">

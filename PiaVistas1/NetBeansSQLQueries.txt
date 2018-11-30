@@ -23,3 +23,14 @@ CREATE TABLE users
     Foreign Key (Photo_ID) References ProfileImages(Photo_ID)
 );
 ---------------------
+CREATE TABLE polls
+(    
+    Poll_ID int not null primary key GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+    Titulo varchar(50),
+    Pregunta varchar(50),
+    Respuesta_1 varchar(50),
+    Respuesta_2 varchar(50),
+    Respuesta_3 varchar(50),
+    Respuesta_4 varchar(50)
+);
+---------------------

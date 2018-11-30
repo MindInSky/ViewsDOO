@@ -12,7 +12,10 @@
   and open the template in the editor.
 -->
 <html>
-<%@include file="/WEB-INF/jspf/head.jspf" %>
+  <head>
+  <title>Encuesta Disabled temporary</title>
+  <%@include file="/WEB-INF/jspf/head.jspf" %>
+  </head>  
 <%@include file="/WEB-INF/jspf/header.jspf" %>
   <body class="blue lighten-1">
     <div class="container">
