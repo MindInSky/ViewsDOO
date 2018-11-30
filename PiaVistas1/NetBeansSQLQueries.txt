@@ -1,0 +1,25 @@
+----
+http://www.java2s.com/Code/Java/Database-SQL-JDBC/Saveimagetoderbydatabase.htm
+Blobs:
+----
+CREATE TABLE ProfileImages
+(
+   Photo_ID int not null primary key GENERATED ALWAYS AS IDENTITY (START WITH 1, INCREMENT BY 1),
+   Name VARCHAR(40),
+   Photo BLOB,
+   PhotoName varchar(50)
+);
+--------------
+CREATE TABLE users
+(    
+    User_ID int not null primary key
+        GENERATED ALWAYS AS IDENTITY,
+    Username varchar(50),
+    Nombre varchar(50),
+    Apellido varchar(50),
+    Password VARCHAR(50),
+    Email VARCHAR(100),
+    Photo_ID int,
+    Foreign Key (Photo_ID) References ProfileImages(Photo_ID)
+);
+---------------------

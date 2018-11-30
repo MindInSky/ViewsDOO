@@ -24,10 +24,32 @@
                   </div>
                 <form action="ComentariosControlador" method="post" id=>
                   <div class="row">
-                      <div class="col s12 input-field">
-                        <label for="Usuario">Usuario</label>
+                    <div class="input-field col s6">
+                      <input id="name" type="text" required>
+                      <label for="name">Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="LastName" type="text" required>
+                      <label for="LastName">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col s6 input-field">
+                        <label for="Usuario">User</label>
                         <input type="text" name="Usuario" id="Usuario" required/>
                       </div>
+                    <div class="col s6 input-field file-field ">
+                     <div
+                       class="btn waves-effect btn blue accent-3 waves-yellow"
+                        id="ProfilePicture"
+                      >
+                        <span>Profile picture</span>
+                        <input name="ProfilePicture" id="ProfilePicture" type="file" />
+                      </div>
+                     <div class="file-path-wrapper">
+                        <input disabled class="file-path validate" type="text" />
+                      </div>
+                    </div>
                   </div>
                   <div class="row">
                     <div class="input-field col s6">

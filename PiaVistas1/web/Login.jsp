@@ -42,8 +42,8 @@
                         </div>
                         <div class="row">
                                 <div class="col s6 push-s6">
-                                        <button class="btn waves-effect waves-light pulse" type="submit" name="action">Register
-                                        </button>
+                                        <a href="Register.jsp" class="btn waves-effect waves-light pulse" >Register
+                                        </a>
                                     </div>
                                 <div class="col s6 pull-s6"> 
                                     <button class="btn waves-effect waves-light indigo lighten-1 pulse" type="submit" name="action">Submit

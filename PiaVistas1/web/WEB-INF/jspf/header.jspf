@@ -7,15 +7,15 @@
         <ul class="right hide-on-med-and-down">
           <li>
             <a
-              href="./login.jsp"
+              href="./Login.jsp"
               class="waves-effect btn blue accent-3 waves-yellow pulse"
               >Login</a
             >
           </li>
           <li>
             <a
-              href=".PollList.jsp"
-              class="waves-effect btn blue accent-3 waves-yellow disabled"
+              href="index.jsp"
+              class="waves-effect btn blue accent-3 waves-yellow"
               >Encuestas</a
             >
           </li>
